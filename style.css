@@ -8,7 +8,6 @@ body,html{
     background-color: #777;
     background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAQAAABuBnYAAAAAU0lEQVQIHQXBwRGDIBAAwO2/AMcCDHAcPjIRxjJ8Je1kl1uqUgphsWu6w0sIG6npLpcUBql4e/wsVRKabrkNTacIYbMrwsF06rqUhsnXVKVT+Hj+Ue4rPSONk4kAAAAASUVORK5CYII=);
 }
-
 input{
     outline: none;
     background: transparent;
@@ -77,4 +76,8 @@ button{
     border: 0;
     background: linear-gradient(to right, #11998e, #38ef7d);
     border-radius: 20px;
+    outline: none;
+}
+button:active{
+    opacity: 0.8
 }
